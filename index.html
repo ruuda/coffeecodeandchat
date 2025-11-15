@@ -12,22 +12,30 @@
     font-family: Inconsolata, monospace;
     margin: 0;
     padding: 0;
+    --light: #eaedf2;
+    --dark: #0A2239;
+    --accent: #15a2d7;
   }
   html {
     font-size: 20px;
     line-height: 1.3em;
+    background-color: var(--light);
+    color: var(--dark);
   }
   body {
     max-width: 34em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   h1 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     text-align: center;
     font-size: 3rem;
+    line-height: 3.2rem;
     font-weight: 800;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -41,6 +49,10 @@
   }
   p, ul {
     margin-top: 1rem;
+  }
+  a {
+    color: var(--accent);
+    text-underline-offset: 1pt;
   }
   </style>
 <body>
@@ -62,6 +74,7 @@
     <a href="https://maps.app.goo.gl/jem9UbT29hSL4G4x6">Lebkov, at Utrecht Centraal</a>,
     at the side of Hoog Catharijne.
     Usually we sit at one of the two tables in the back.
+    WiFi and power sockets are available here.
   </p>
 
   <h2>Next meetups</h2>
