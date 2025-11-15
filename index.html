@@ -14,7 +14,7 @@
     padding: 0;
     --light: #eaedf2;
     --dark: #0A2239;
-    --accent: #15a2d7;
+    --accent: #1592c7;
   }
   html {
     font-size: 20px;
@@ -52,7 +52,12 @@
   }
   a {
     color: var(--accent);
+    text-underline-weight: 1pt;
     text-underline-offset: 1pt;
+  }
+  li::marker {
+    font-weight: 600;
+    content: '* ';
   }
   </style>
 <body>
